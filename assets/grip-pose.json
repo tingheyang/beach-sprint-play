@@ -1,0 +1,260 @@
+{
+  "1": {
+    "position": [
+      -0.832,
+      0.034,
+      -0.088
+    ],
+    "angles": {
+      "thumb-metacarpal": {
+        "angle": 0.8559999999999999,
+        "yaw": -0.31999999999999995,
+        "splay": -0.616
+      },
+      "thumb-phalanx-proximal": {
+        "angle": 1.6,
+        "yaw": 0,
+        "splay": 0
+      },
+      "thumb-phalanx-distal": {
+        "angle": -0.43599999999999983,
+        "yaw": 0,
+        "splay": 0
+      },
+      "thumb-tip": {
+        "angle": 0.5,
+        "yaw": 0,
+        "splay": 0
+      },
+      "index-finger-metacarpal": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "index-finger-phalanx-proximal": {
+        "angle": 0.9089999999999999,
+        "yaw": 0,
+        "splay": 0
+      },
+      "index-finger-phalanx-intermediate": {
+        "angle": 0.9980000000000002,
+        "yaw": 0,
+        "splay": 0
+      },
+      "index-finger-phalanx-distal": {
+        "angle": 0.7809999999999998,
+        "yaw": 0,
+        "splay": 0
+      },
+      "index-finger-tip": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "middle-finger-metacarpal": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "middle-finger-phalanx-proximal": {
+        "angle": 0.975,
+        "yaw": 0,
+        "splay": 0
+      },
+      "middle-finger-phalanx-intermediate": {
+        "angle": 1.2489999999999999,
+        "yaw": 0,
+        "splay": 0
+      },
+      "middle-finger-phalanx-distal": {
+        "angle": 0.7609999999999999,
+        "yaw": 0,
+        "splay": 0
+      },
+      "middle-finger-tip": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "ring-finger-metacarpal": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "ring-finger-phalanx-proximal": {
+        "angle": 0.8,
+        "yaw": 0,
+        "splay": 0
+      },
+      "ring-finger-phalanx-intermediate": {
+        "angle": 1.025,
+        "yaw": 0,
+        "splay": 0
+      },
+      "ring-finger-phalanx-distal": {
+        "angle": 0.6499999999999999,
+        "yaw": 0,
+        "splay": 0
+      },
+      "ring-finger-tip": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "pinky-finger-metacarpal": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "pinky-finger-phalanx-proximal": {
+        "angle": 0.776,
+        "yaw": 0,
+        "splay": 0
+      },
+      "pinky-finger-phalanx-intermediate": {
+        "angle": 0.4160000000000001,
+        "yaw": 0,
+        "splay": 0
+      },
+      "pinky-finger-phalanx-distal": {
+        "angle": 0.3319999999999999,
+        "yaw": 0,
+        "splay": 0
+      },
+      "pinky-finger-tip": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      }
+    }
+  },
+  "-1": {
+    "position": [
+      -0.832,
+      0.034,
+      0.088
+    ],
+    "angles": {
+      "thumb-metacarpal": {
+        "angle": -0.8559999999999999,
+        "yaw": 0.31999999999999995,
+        "splay": -0.616
+      },
+      "thumb-phalanx-proximal": {
+        "angle": -1.6,
+        "yaw": 0,
+        "splay": 0
+      },
+      "thumb-phalanx-distal": {
+        "angle": 0.43599999999999983,
+        "yaw": 0,
+        "splay": 0
+      },
+      "thumb-tip": {
+        "angle": -0.5,
+        "yaw": 0,
+        "splay": 0
+      },
+      "index-finger-metacarpal": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "index-finger-phalanx-proximal": {
+        "angle": -0.959,
+        "yaw": 0,
+        "splay": 0
+      },
+      "index-finger-phalanx-intermediate": {
+        "angle": -0.9400000000000002,
+        "yaw": 0,
+        "splay": 0
+      },
+      "index-finger-phalanx-distal": {
+        "angle": -0.6359999999999998,
+        "yaw": 0,
+        "splay": 0
+      },
+      "index-finger-tip": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "middle-finger-metacarpal": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "middle-finger-phalanx-proximal": {
+        "angle": -0.975,
+        "yaw": 0,
+        "splay": 0
+      },
+      "middle-finger-phalanx-intermediate": {
+        "angle": -1.2489999999999999,
+        "yaw": 0,
+        "splay": 0
+      },
+      "middle-finger-phalanx-distal": {
+        "angle": -0.7609999999999999,
+        "yaw": 0,
+        "splay": 0
+      },
+      "middle-finger-tip": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "ring-finger-metacarpal": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "ring-finger-phalanx-proximal": {
+        "angle": -0.8,
+        "yaw": 0,
+        "splay": 0
+      },
+      "ring-finger-phalanx-intermediate": {
+        "angle": -1.025,
+        "yaw": 0,
+        "splay": 0
+      },
+      "ring-finger-phalanx-distal": {
+        "angle": -0.6499999999999999,
+        "yaw": 0,
+        "splay": 0
+      },
+      "ring-finger-tip": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "pinky-finger-metacarpal": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      },
+      "pinky-finger-phalanx-proximal": {
+        "angle": -0.776,
+        "yaw": 0,
+        "splay": 0
+      },
+      "pinky-finger-phalanx-intermediate": {
+        "angle": -0.4160000000000001,
+        "yaw": 0,
+        "splay": 0
+      },
+      "pinky-finger-phalanx-distal": {
+        "angle": -0.3319999999999999,
+        "yaw": 0,
+        "splay": 0
+      },
+      "pinky-finger-tip": {
+        "angle": 0,
+        "yaw": 0,
+        "splay": 0
+      }
+    }
+  }
+}

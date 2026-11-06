@@ -1,0 +1,37 @@
+Beach Sprint prototype — asset credits and implementation notes
+
+Hands: WebXR Input Profiles Assets, generic-hand left.glb / right.glb.
+https://github.com/immersive-web/webxr-input-profiles/tree/main/packages/assets
+MIT license: assets/HANDS-LICENSE.txt. Each supplied hand has 25 joints.
+Modified: bone hierarchy reconstructed, animated grasp poses, material replacement.
+
+Skin photograph: Infinite 3D Head Scan by Lee Perry-Smith / Infinite-Realities.
+Based on work at www.triplegangers.com. CC BY 3.0.
+Source: https://threejs.org/examples/models/gltf/LeePerrySmith/Map-COL.jpg
+License: https://creativecommons.org/licenses/by/3.0/
+See assets/SKIN-LICENSE.txt. A small skin region is sampled via UV offset/repeat;
+this is repurposed scan texture, not an anatomical hand-specific photograph.
+
+Carbon color and normal textures from Three.js examples:
+https://threejs.org/examples/textures/carbon/Carbon.png
+https://threejs.org/examples/textures/carbon/Carbon_Normal.png
+Three.js r170 and loader utilities: MIT, vendor/THREE-LICENSE.txt.
+
+Boat, oars, rig and smooth weighted arm geometry: authored for this prototype.
+Boat is a smooth procedural 3D mesh, not a manufacturer scan or licensed boat model.
+Arms: SkinnedMesh with shoulder and elbow bones; elbow pose solved from wrist target.
+Hands: genuine supplied skinned mesh and articulated finger bones; not motion capture.
+Materials: physically based clearcoat, normal maps and environment lighting.
+
+Stamina: subtract 1.2 percentage points per accepted stroke, no passive regeneration.
+Impulse: 1.45 * timingQuality * (0.2 + 0.8 * staminaBeforeStroke/100).
+20% minimum impulse preserves finishability at zero stamina. Boat speed cap remains.
+Run via local HTTP server; keep index.html, craft3d.js, vendor/ and assets/ together.
+
+Grip linkage revision: hand roots are attached in the oar frame. Finger poses are fitted
+to the cylindrical grip and held stable during the stroke. Limited wrist roll preserves
+the same grip axis. Oarlock pivots remain fixed; recovery and blade feathering use
+continuous eased phase curves. Back-view athlete/rig orientation is rotated together.
+Surface audit: 10,616 vertex/edge/triangle-centre samples per hand. No sampled surface
+point penetrates the 17.5 mm grip radius. This is a sampling audit, not an exhaustive
+continuous triangle collision guarantee or a full anatomical validation.
